@@ -1,1 +1,22 @@
+#Modual 4 Lab
+#Vixen Hinkle
+#10/4/24
+#Determines Monthly Sales
+
+#Variables
+MonthlySales = 0 #Sales Amount
+StoreSales = 0 #Store Sale Amount
+EmployeeSales = 0 #Employee Sale Amount
+PrecentSales = 0 #Precent Sale Increase
+Number = "5" #Promt is string
+
+#This Code Gets Monthly Sale Amount
+MonthlySales = float(input(Number))
+#This code determines store bonus
+if MonthlySales >= 110000:
+    StoreAmount = 6570
+elif print("Your Have Not Met Bonus Amount"):
+elif
+elif 
+
 
