@@ -1,0 +1,31 @@
+#Vixen Hinke
+#10/11/24
+#CIS129 12935
+#Lab Module 5
+#The purpose of this lab is to show an understanding of repition structures
+
+#Declare Variables
+TotalBottles = 0
+Counter = 0
+TodayBottles = 0
+TotalPayout = 0
+KeepGoing = True
+
+#while loop(call back KeepGoing)
+while KeepGoing == True:
+#Set variable for TotalBottles
+    TotalBottles = 3
+#set variable TotalPayout
+    TotalPayout = TotalBottles + 3.25
+#Print the TotalBottles and TotalPayout
+    print("Total Bottles: ", TotalBottles, " ", "Total Payout", TotalPayout)
+    print("Do you want to enter anothers week's worth of data?")
+    print("Enter Y or N")
+    conformation = input()
+    if conformation == "Y":
+        KeepGoing = "Y"
+    elif conformation == "N":
+        KeepGoing = False 
+    else:
+        KeepGoing = True
+KeepGoing       
